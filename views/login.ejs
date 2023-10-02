@@ -1,0 +1,15 @@
+<%-include("../partial/meta.ejs") %>
+<%-include("../partial/navbar.ejs") %>
+<%-include("../partial/nav.ejs") %>
+
+<%-include("../partial/style") %>
+
+
+
+<center>
+    <form action="/login" method="post">
+        <input type="email" name="email" placeholder="enter email"><br>
+        <input type="password" name="password" placeholder="enter password"><br>
+        <button type="submit">Login</button>
+    </form>
+</center>

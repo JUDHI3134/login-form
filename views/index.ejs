@@ -1,0 +1,19 @@
+
+    <%-include("../partial/meta.ejs") %>
+    <%-include("../partial/navbar.ejs") %>
+    <%-include("../partial/nav.ejs") %>
+   
+    <%-include("../partial/style") %>
+<body>
+    <center>
+    <form action="/register" method="post">
+        <input type="text" name="name" placeholder="enter name" ><br>
+        <input type="email" name="email" placeholder="enter email"><br>
+        <input type="number" name="phone"placeholder="enter phone number" ><br>
+        <input type="password" name="password" placeholder="enter password"><br>
+        <input type="password" name="confirmpassword" placeholder="enter confirm password"><br>
+        <button type="submit">Submit</button>
+    </form>
+</center>
+</body>
+</html>
